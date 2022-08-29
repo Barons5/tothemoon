@@ -49,19 +49,8 @@
 
          <div class="collapse navbar-collapse text-center" id="navigation">
             <ul class="navbar-nav ml-auto">
-               <li class="nav-item dropdown">
-                  <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-                     aria-expanded="false">
-                     homepage <i class="ti-angle-down ml-1"></i>
-                  </a>
-                  <div class="dropdown-menu">
-                     <a class="dropdown-item" href="index-full.html">Homepage Full Width</a>
-                     <a class="dropdown-item" href="index-full-left.html">Homepage Full With Left Sidebar</a>
-                     <a class="dropdown-item" href="index-full-right.html">Homepage Full With Right Sidebar</a>
-                     <a class="dropdown-item" href="index-list.html">Homepage List Style</a>
-                     <a class="dropdown-item" href="index-list-left.html">Homepage List With Left Sidebar</a>
-                     <a class="dropdown-item" href="index-list-right.html">Homepage List With Right Sidebar</a>
-                  </div>
+               <li class="nav-item">
+                  <a class="nav-link" href="login.php">Login</a>
                </li>
                <li class="nav-item">
                   <a class="nav-link" href="about.html">About</a>
