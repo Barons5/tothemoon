@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-  	<title>Login</title>
+  	<title>Sign Up</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -24,7 +24,7 @@
 						<div class="login-wrap p-4 p-md-5">
 			      	<div class="d-flex">
 			      		<div class="w-100">
-			      			<h3 class="mb-4">Sign UpIn</h3>
+			      			<h3 class="mb-4">Sign Up</h3>
 			      		</div>
 								
 			      	</div>

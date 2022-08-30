@@ -52,7 +52,7 @@
 									</div>
 		            </div>
 		          </form>
-		          <p class="text-center">Not a member? <a data-toggle="tab" href="register.php">Sign Up</a></p>
+		          <p class="text-center">Not a member? <span><a data-toggle="tab" href="register.php">Sign Up</a></span></p>
 		        </div>
 		      </div>
 				</div>
