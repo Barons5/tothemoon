@@ -1,3 +1,9 @@
+
+
+<?php
+	include 'connect.php';
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -39,6 +45,14 @@
 		            </div>
 		            <div class="form-group">
 		            	<button type="submit" class="form-control btn btn-primary rounded submit px-3">Sign In</button>
+			      			<input type="text" class="form-control" name="username" placeholder="Username" required>
+			      		</div>
+		            <div class="form-group mb-3">
+		            	<label class="label" for="password">Password</label>
+		              <input type="password" class="form-control" name="password" placeholder="Password" required>
+		            </div>
+		            <div class="form-group">
+		            	<button type="submit" name="submit" class="form-control btn btn-primary rounded submit px-3">Sign In</button>
 		            </div>
 		            <div class="form-group d-md-flex">
 		            	<div class="w-50 text-left">
@@ -52,7 +66,11 @@
 									</div>
 		            </div>
 		          </form>
+
 		          <p class="text-center">Not a member? <span><a  href="register.php">Sign Up</a></span></p>
+
+		          <p class="text-center">Not a member? <span><a data-toggle="tab" href="register.php">Sign Up</a></span></p>
+
 		        </div>
 		      </div>
 				</div>
@@ -67,4 +85,9 @@
 
 	</body>
 </html>
+
+
+<?php
+	
+?>
 
