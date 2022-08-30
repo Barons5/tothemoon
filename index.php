@@ -72,7 +72,7 @@
 		<div class="row">
 			<div class="col-12">
 				<div class="title-bordered mb-5 d-flex align-items-center">
-					<h1 class="h4">Hi, I Am Prawit</h1>
+					<h1 class="h4">Inclu</h1>
 					<ul class="list-inline social-icons ml-auto mr-3 d-none d-sm-block">
 						<li class="list-inline-item"><a href="#"><i class="ti-facebook"></i></a>
 						</li>
