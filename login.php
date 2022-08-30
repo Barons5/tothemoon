@@ -1,6 +1,4 @@
-<?php
-	include 'connect.php';
-?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -55,7 +53,7 @@
 									</div>
 		            </div>
 		          </form>
-		          <p class="text-center">Not a member? <a data-toggle="tab" href="register.php">Sign Up</a></p>
+		          <p class="text-center">Not a member? <a data-toggle="tab" href="#signup">Sign Up</a></p>
 		        </div>
 		      </div>
 				</div>
