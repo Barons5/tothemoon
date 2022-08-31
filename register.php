@@ -38,7 +38,7 @@
 			      		</div>
                           <div class="form-group mb-3">
 			      			<label class="label" for="name">E-maile</label>
-			      			<input type="e-mail" class="form-control" placeholder="E-mail" required>
+			      			<input type="text" class="form-control" placeholder="E-mail" required>
 			      		</div>
 		            <div class="form-group mb-3">
 		            	<label class="label" for="password">Password</label>
@@ -46,7 +46,7 @@
 		            </div>
                     <div class="form-group mb-3">
 		            	<label class="label" for="text">Tel</label>
-		              <input type="password" class="form-control" placeholder="Tel" required>
+		              <input type="text" class="form-control" placeholder="Tel" required>
 		            </div>
 		            <div class="form-group">
 		            	<button type="submit" class="form-control btn btn-primary rounded submit px-3">Register</button>
