@@ -81,7 +81,7 @@
 		$sql= "SELECT * FROM dberp WHERE username = '$username'";
 		$result=mysqli_query($conn,$sql);
 
-		if(mysqli_num_rows($result) =0 ){
+		if(mysqli_num_rows($result) <=0 ){
 			echo "<script>";
 			echo "alert('Username already exists! Please try again later!')";
 			echo "</script>";
