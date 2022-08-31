@@ -34,19 +34,19 @@
 						<form method="POST" action="login.php"  class="signin-form">
 			      		<div class="form-group mb-3">
 			      			<label class="label" for="name">Username</label>
-			      			<input type="text" class="form-control" placeholder="Username" required>
+			      			<input type="text" name="username" class="form-control" placeholder="Username" required>
 			      		</div>
                           <div class="form-group mb-3">
 			      			<label class="label" for="name">password</label>
-			      			<input type="password" class="form-control" placeholder="password" required>
+			      			<input type="password" name="password" class="form-control" placeholder="Password" requiredpassword" required>
 			      		</div>
 		            <div class="form-group mb-3">
 		            	<label class="label" for="password">e-mail</label>
-		              <input type="text" class="form-control" placeholder="e-mail" required>
+		              <input type="text" name="email" class="form-control" placeholder1="e-mail" required>
 		            </div>
                     <div class="form-group mb-3">
 		            	<label class="label" for="text">Tel</label>
-		              <input type="text" class="form-control" placeholder="Tel" required>
+		              <input type="text" name="tel" class="form-control" placeholder="Tel" required>
 		            </div>
 
 		            	<input type="submit" class="form-control btn btn-primary rounded submit px-3">Register</input>
@@ -71,11 +71,11 @@
 </html>
 
 <?php
-	if(isset($_POST['username']) && isset( $_POST['password']) && isset($_POST['email'] ) && isset($_POST['Tel'])){
+	if(isset($_POST['username']) && isset( $_POST['password']) && isset($_POST['email'] ) && isset($_POST['tel'])){
 		$username = $_POST['username'];
 		$password = $_POST['password'];
 		$email = $_POST['email'];
-		$Tel = $_POST['Tel'];
+		$Tel = $_POST['tel'];
 
 		$sql= "SELECT * FROM dberp WHERE username = '$username'";
 		$result=mysqli_query($conn,$sql);
@@ -86,7 +86,7 @@
 			echo "</script>";
 		}
 		else{
-			$insert = "INSERT INTO dberp (username, password, email, Tel) VALUES ('$username', '$password', '$email', '$tel')";
+			$insert = "INSERT INTO dberp (member_username,member_password,member_email, member_phone) VALUES ('$username', '$password', '$email', '$tel')";
 			$result = mysqli_query($conn,$insert);
 			echo "<script>";
 			echo "alert('Success')";
