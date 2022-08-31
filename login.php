@@ -31,7 +31,7 @@
 			      		</div>
 								
 			      	</div>
-							<form action="home.php" class="signin-form">
+							<form action="index.php" method="POST" class="signin-form">
 			      		<div class="form-group mb-3">
 			      			<label class="label" for="name">Username</label>
 			      			<input type="text" name="username" class="form-control" placeholder="Username" required>
@@ -43,17 +43,8 @@
 		            <div class="form-group">
 		            	<button type="submit" name="submit" class="form-control btn btn-primary rounded submit px-3">Sign In</button>
 		            </div>
-		            <div class="form-group d-md-flex">
-		            	<div class="w-50 text-left">
-			            	<label class="checkbox-wrap checkbox-primary mb-0">Remember Me
-									  <input type="checkbox" checked>
-									  <span class="checkmark"></span>
-										</label>
-									</div>
-									<div class="w-50 text-md-right">
-										<a href="#">Forgot Password</a>
-									</div>
-		            </div>
+
+		            
 		          </form>
 		          <p class="text-center">Not a member? <a  href="register.php">Sign Up</a></p>
 		        </div>
