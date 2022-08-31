@@ -31,7 +31,7 @@
 			      		</div>
 								
 			      	</div>
-							<form action="index.php" class="signin-form">
+							<form action="login.php" class="signin-form">
 			      		<div class="form-group mb-3">
 			      			<label class="label" for="name">Username</label>
 			      			<input type="text" class="form-control" placeholder="Username" required>
