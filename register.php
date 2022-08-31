@@ -31,7 +31,7 @@
 			      		</div>
 								
 			      	</div>
-							<form method="" class="signin-form">
+							<form method="POST" class="signin-form">
 			      		<div class="form-group mb-3">
 			      			<label class="label" for="name">Username</label>
 			      			<input type="text" class="form-control" placeholder="Username" required>
@@ -82,14 +82,16 @@
 		$result=mysqli_query($conn,$sql);
 
 		if(mysqli_num_rows($result)>0 ){
-			echo "<script>alert('Username Aleady')</script>";
-			echo "<script>window.location='login.php'</script>";
+			echo "<script>";
+			echo "alert('Username already exists! Please try again later!')";
+			echo "</script>";
 	}
 	else{
 		$insert = "INSERT INTO dberp (username, password, email, Tel) VALUES ('$username', '$password', '$email', '$tel')";
 		$result = mysqli_query($conn,$insert);
-		echo "<script>alert('Register Success')</script>";
-		echo "<script>window.location='login.php'</script>";
+		echo "<script>";
+		echo "alert('Success')";
+		echo "</script>";
 	}
 }
 ?>
