@@ -31,7 +31,7 @@
 			      		</div>
 								
 			      	</div>
-							<form action="index.php" method="POST" class="signin-form">
+							<form  method="POST" class="signin-form">
 			      		<div class="form-group mb-3">
 			      			<label class="label" for="name">Username</label>
 			      			<input type="text" name="username" class="form-control" placeholder="Username" required>
@@ -63,13 +63,19 @@
 </html>
 
 <?php
-	if(isset($_POST['submit'])) {
+	if(isset($_POST['username'])&&isset($_POST['password'])) {
 		$username = $_POST['username'];
 		$password = $_POST['password'];
 
-		$_SESSION['username'] = $username;
+		
+		$sql = "SELECT * FROM dberp WHERE username = '$username' AND password = '$password'";
+		$result = mysqli_query($conn,$sql);
+		if(mysqli_num_rows($result) == 1){
 
-		$obj->login($username, $password);
+		}
+		else{
+			echo "<script>window.location '#'</script>";
+		}
 	}
 ?>
 
