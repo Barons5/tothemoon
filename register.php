@@ -83,7 +83,7 @@
 
 		if(mysqli_num_rows($result)>0 ){
 			echo "<script>alert('Username Aleady')</script>";
-			echo "<script>window.location='Register.php'</script>";
+			echo "<script>window.location='login.php'</script>";
 	}
 	else{
 		$insert = "INSERT INTO dberp (username, password, email, Tel) VALUES ('$username', '$password', '$email', '$tel')";
