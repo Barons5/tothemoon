@@ -74,7 +74,7 @@
 
 		}
 		else{
-			echo "<script>window.location '#'</script>";
+			echo "<script>window.location 'index.php'</script>";
 		}
 	}
 ?>
