@@ -71,3 +71,16 @@
 	</body>
 </html>
 
+<?php
+	if(isset($_POST['submit'])) {
+		$username = $_POST['username'];
+		$password = $_POST['password'];
+
+		$_SESSION['username'] = $username;
+
+		$obj->login($username, $password);
+	}
+?>
+
+
+
