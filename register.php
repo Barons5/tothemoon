@@ -90,7 +90,9 @@
 			$result = mysqli_query($conn,$insert);
 			echo "<script>";
 			echo "alert('Success')";
+			echo "window.location='login.php'";
 			echo "</script>";
+
 				
 			}
 	}
