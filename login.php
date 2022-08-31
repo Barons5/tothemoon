@@ -68,7 +68,7 @@
 		$password = $_POST['password'];
 
 		
-		$sql = "SELECT * FROM dberp WHERE username = '$username' AND password = '$password'";
+		$sql = "SELECT * FROM dberp WHERE member_username = '$username' AND member_password = '$password'";
 		$result = mysqli_query($conn,$sql);
 		if(mysqli_num_rows($result) == 1){
 
