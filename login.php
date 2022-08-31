@@ -71,11 +71,11 @@
 		$sql = "SELECT * FROM dberp WHERE member_username = '$username' AND member_password = '$password'";
 		$result = mysqli_query($conn,$sql);
 		if(mysqli_num_rows($result) == 1){
-			echo "<script>window.location 'index.php'</script>";
+			echo "<script>window.location='index.php'</script>";
 
 		}
 		else{
-			echo "<script>window.location 'login.php'</script>";
+			echo "<script>window.location='login.php'</script>";
 
 		}
 	}
