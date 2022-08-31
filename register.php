@@ -31,7 +31,7 @@
 			      		</div>
 								
 			      	</div>
-							<form action="#" class="signin-form">
+							<form action="index.php" class="signin-form">
 			      		<div class="form-group mb-3">
 			      			<label class="label" for="name">Username</label>
 			      			<input type="text" class="form-control" placeholder="Username" required>
@@ -53,7 +53,7 @@
 		            </div>
 		           
 		          </form>
-		          <p class="text-center">Not a member? <a  href="#signup">Sign Up</a></p>
+		          
 
 						
 		        
