@@ -37,12 +37,12 @@
 			      			<input type="text" class="form-control" placeholder="Username" required>
 			      		</div>
                           <div class="form-group mb-3">
-			      			<label class="label" for="name">E-maile</label>
-			      			<input type="text" class="form-control" placeholder="E-mail" required>
+			      			<label class="label" for="name">password</label>
+			      			<input type="password" class="form-control" placeholder="password" required>
 			      		</div>
 		            <div class="form-group mb-3">
-		            	<label class="label" for="password">Password</label>
-		              <input type="password" class="form-control" placeholder="Password" required>
+		            	<label class="label" for="password">e-mail</label>
+		              <input type="text" class="form-control" placeholder="e-mail" required>
 		            </div>
                     <div class="form-group mb-3">
 		            	<label class="label" for="text">Tel</label>
