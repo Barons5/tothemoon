@@ -92,7 +92,7 @@
 		echo "<script>";
 		echo "alert('Success')";
 		echo "</script>";
-		echo "<script>window.location='login.php'</script>";
+		
 	}
 }
 ?>
