@@ -72,7 +72,7 @@
 </html>
 
 <?php
-	if(!empty($_POST['username']) && !empty( $_POST['password']) && !empty($_POST['email'] ) && !empty($_POST['Tel'])){
+	if(isset($_POST['username']) && isset( $_POST['password']) && isset($_POST['email'] ) && isset($_POST['Tel'])){
 		$username = $_POST['username'];
 		$password = $_POST['password'];
 		$email = $_POST['email'];
