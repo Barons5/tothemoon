@@ -85,12 +85,12 @@
 			echo "alert('Username already exists! Please try again later!')";
 			echo "</script>";
 		}
-			else{
-				$insert = "INSERT INTO dberp (username, password, email, Tel) VALUES ('$username', '$password', '$email', '$tel')";
-				$result = mysqli_query($conn,$insert);
-				echo "<script>";
-				echo "alert('Success')";
-				echo "</script>";
+		else{
+			$insert = "INSERT INTO dberp (username, password, email, Tel) VALUES ('$username', '$password', '$email', '$tel')";
+			$result = mysqli_query($conn,$insert);
+			echo "<script>";
+			echo "alert('Success')";
+			echo "</script>";
 				
 			}
 	}
