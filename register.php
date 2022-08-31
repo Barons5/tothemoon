@@ -81,9 +81,9 @@
 		$result=mysqli_query($conn,$sql);
 
 		if(mysqli_num_rows($result) > 0 ){
-			echo "<script>";
-			echo "alert('Username already exists! Please try again later!')";
-			echo "</script>";
+			
+			echo "<script>alert('Username already exists! Please try again later!')</script>";
+			
 		}
 		else{
 			$insert = "INSERT INTO dberp (member_username,member_password,member_email, member_phone) VALUES ('$username', '$password', '$email', '$Tel')";
