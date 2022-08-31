@@ -49,7 +49,7 @@
 		              <input type="password" class="form-control" placeholder="Tel" required>
 		            </div>
 		            <div class="form-group">
-		            	<button type="submit" class="form-control btn btn-primary rounded submit px-3">Sign In</button>
+		            	<button type="submit" class="form-control btn btn-primary rounded submit px-3">Register</button>
 		            </div>
 		           
 		          </form>
