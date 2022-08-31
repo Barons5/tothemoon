@@ -38,7 +38,7 @@
 			      		</div>
                           <div class="form-group mb-3">
 			      			<label class="label" for="name">E-maile</label>
-			      			<input type="text" class="form-control" placeholder="E-mail" required>
+			      			<input type="e-mail" class="form-control" placeholder="E-mail" required>
 			      		</div>
 		            <div class="form-group mb-3">
 		            	<label class="label" for="password">Password</label>
