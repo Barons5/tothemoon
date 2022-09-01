@@ -40,10 +40,10 @@
 			      			<label class="label" for="name">password</label>
 			      			<input type="password" name="password" class="form-control" placeholder="Password"  required>
 			      		</div>
-		            	<div class="form-group mb-3">
-		            		<label class="label" for="name">e-mail</label>
-		              		<input type="email" name="email" class="form-control" placeholder1="e-mail" required>
-		            	</div>
+						  <div class="form-group mb-3">
+			      			<label class="label" for="name">E-mail</label>
+			      			<input type="email" name="email" class="form-control" placeholder="E-mail"  required>
+			      		</div>
                     	<div class="form-group mb-3">
 		            		<label class="label" for="text">Tel</label>
 		              		<input type="text" name="tel" class="form-control" placeholder="Tel" required>
