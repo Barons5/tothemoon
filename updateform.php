@@ -63,7 +63,7 @@
                                 </div>
 
                                 <input type="submit" name="submit" 
-                                    class="form-control btn btn-primary rounded submit px-3">Edit</input>
+                                    class="form-control btn btn-primary rounded submit px-3" value="Edit" ></input>
 
                             </form>
 

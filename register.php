@@ -49,7 +49,7 @@
 		              		<input type="text" name="tel" class="form-control" placeholder="Tel" required>
 		           	 	</div>
 
-		            		<input type="submit" class="form-control btn btn-primary rounded submit px-3">Register</input>
+		            		<input type="submit" class="form-control btn btn-primary rounded submit px-3" value="Register"></input>
 		           
 		          </form>
 		          
