@@ -89,7 +89,7 @@
 			$insert = "INSERT INTO dberp (member_username,member_password,member_email, member_phone) VALUES ('$username', '$password', '$email', '$Tel')";
 			$result = mysqli_query($conn,$insert);
 			echo "<script>alert('Success')</script>";
-			echo "<script>window.location='login.php'</script>";
+			echo "<script>window.location='index.php'</script>";
 			
 
 				
