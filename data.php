@@ -37,8 +37,9 @@
     <tr>
       <th scope="row">1</th>
       <td><?php echo $row['member_username'] ?></td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <td><?php echo $row['member_password'] ?></td>
+      <td><?php echo $row['member_email'] ?></td>
+      <td><?php echo $row['member_phone'] ?></td>
     </tr>
 
   </tbody>
