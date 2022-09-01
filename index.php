@@ -56,7 +56,7 @@
                   <a class="nav-link" href="index.php">Home</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="##">Table</a>
+                  <a class="nav-link" href="data.php">Table</a>
                </li>
               
               
