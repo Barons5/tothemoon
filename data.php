@@ -45,6 +45,8 @@
                     <td><?php echo $row['member_password'] ?></td>
                     <td><?php echo $row['member_email'] ?></td>
                     <td><?php echo $row['member_phone'] ?></td>
+                    <td><a class ="btn btn-success" href="updateform.php?id=<?php echo $row['member_id'] ?>">update</a> </td>
+                    <td><a class = "btn btn-danger" href="del.php?id=<?php echo $row['member_id'] ?>">del</a></td>
                 </tr>
 
             </tbody>
