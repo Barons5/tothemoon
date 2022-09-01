@@ -74,19 +74,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<div class="title-bordered mb-5 d-flex align-items-center">
-					<h1 class="h4">Inclu</h1>
-					<ul class="list-inline social-icons ml-auto mr-3 d-none d-sm-block">
-						<li class="list-inline-item"><a href="#"><i class="ti-facebook"></i></a>
-						</li>
-						<li class="list-inline-item"><a href="#"><i class="ti-twitter-alt"></i></a>
-						</li>
-						<li class="list-inline-item"><a href="#"><i class="ti-linkedin"></i></a>
-						</li>
-						<li class="list-inline-item"><a href="#"><i class="ti-github"></i></a>
-						</li>
-					</ul>
-				</div>
+				
             <center>
 				<img src="images/sanji.png" class="img-fluid w-50 mb-4 rounded-lg" alt="author">
 
