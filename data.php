@@ -33,14 +33,15 @@
             <?php
     $sql = "SELECT * FROM dberp";
     $result = mysqli_query($conn,$sql);
-    
+    $gg = 0;
     
     while($row = mysqli_fetch_assoc($result)){
+        $gg++;
   ?>
 
             <tbody>
                 <tr>
-                    <th scope="row">1</th>
+                    <th scope="row"><?php echo $gg?></th>
                     <td><?php echo $row['member_username'] ?></td>
                     <td><?php echo $row['member_password'] ?></td>
                     <td><?php echo $row['member_email'] ?></td>
