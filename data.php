@@ -1,3 +1,6 @@
+<?php
+    include 'connect.php';
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -9,9 +12,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
+  
   <body>
     <div class="container">
     <table class="table">
+   
   <thead>
     <tr>
       <th scope="col">#</th>
@@ -20,25 +25,26 @@
       <th scope="col">Handle</th>
     </tr>
   </thead>
+  <?php
+    $sql = "SELECT * FROM dberp";
+    $result = mysqli_query($conn,$sql);
+    
+    
+    while($row = mysqli_fetch_assoc($result)){
+  ?>
+
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td>Mark</td>
+      <td><?php echo $row['member_username'] ?></td>
       <td>Otto</td>
       <td>@mdo</td>
     </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
-    </tr>
+
   </tbody>
+  <?php
+} 
+?>
 </table>
     </div>
       
