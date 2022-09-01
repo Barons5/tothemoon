@@ -1,19 +1,75 @@
 <?php
     include 'connect.php';
 ?>
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+
+<html lang="en-us">
 
 <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta charset="utf-8">
+   <title>เว็บคนหล่อเท่</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <!-- mobile responsive meta -->
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+   <meta name="description" content="This is meta description">
+   <meta name="author" content="Themefisher">
+
+   <!-- plugins -->
+   <link rel="preload" href="https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWJ0bbck.woff2" style="font-display: optional;">
+   <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:600%7cOpen&#43;Sans&amp;display=swap" media="screen">
+
+   <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+   <link rel="stylesheet" href="plugins/slick/slick.css">
+
+   <!-- Main Stylesheet -->
+   <link rel="stylesheet" href="css/style.css">
+
+   <!--Favicon-->
+   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+   <link rel="icon" href="images/favicon.png" type="image/x-icon">
 </head>
+
+<body>
+<!-- navigation -->
+<header class="sticky-top bg-white border-bottom border-default">
+   <div class="container">
+
+      <nav class="navbar navbar-expand-lg navbar-white">
+         <a class="navbar-brand" href="index.html">
+            <img class="img-fluid" width="150px" src="images/logo.png" alt="LogBook">
+         </a>
+         <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+            <i class="ti-menu"></i>
+         </button>
+
+         <div class="collapse navbar-collapse text-center" id="navigation">
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item">
+                  <a class="nav-link" href="login.php">Login</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="index.php">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="data.php">Table</a>
+               </li>
+              
+              
+            </ul>
+           
+      
+
+         </div>
+      </nav>
+   </div>
 
 <body>
     <div class="container">
