@@ -42,7 +42,7 @@
 			      		</div>
 		            	<div class="form-group mb-3">
 		            		<label class="label" for="name">e-mail</label>
-		              		<input type="text" name="email" class="form-control" placeholder1="e-mail" required>
+		              		<input type="email" name="email" class="form-control" placeholder1="e-mail" required>
 		            	</div>
                     	<div class="form-group mb-3">
 		            		<label class="label" for="text">Tel</label>
