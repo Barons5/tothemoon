@@ -40,7 +40,6 @@
 <body>
 <!-- navigation -->
 <header class="sticky-top bg-white border-bottom border-default">
-   <div class="container">
 
       <nav class="navbar navbar-expand-lg navbar-white">
          <a class="navbar-brand" href="index.html">
