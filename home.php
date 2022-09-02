@@ -81,7 +81,7 @@
             <div class="card-body">
                <div class="center text-light" style="margin:auto auto">
                    
-                   <h1 class="mt-4">Update ครั้งที่ 4</h1>
+                   <h1 class="mt-4">Update ครั้งที่ 5</h1>
                    <h4 class="mt-3">Prawit Keawrot</h4>
                    
                    <h4>ประวิทย์ แก้วโรจน์</h4>
@@ -104,6 +104,9 @@
                           <li class="list-group-item">z.com domain</li>
                           <li class="list-group-item">Certificate Manager</li>
                           <li class="list-group-item">Lightsail</li>
+                          <li class="list-group-item">LineLiff</li>
+                          <li class="list-group-item">Line Developer</li>
+                          <li class="list-group-item">Line official</li>
 
                       </ul>
                   </div>
